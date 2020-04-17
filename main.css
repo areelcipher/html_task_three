@@ -247,37 +247,3 @@ footer {
 #it, #board-games {
     font-style: italic;
 }
-
-/* Responsiveness with @media query */
-
-@media screen and (max-width: 800px) {
-    body {
-        background-image: none;
-    }
-    #container {
-        width: 100%;
-        height: auto;
-        margin: 0;
-    }
-    #name__profile-img {
-        width: 50%;
-        height: 100vh;
-        background-image: url(img/bg_web.jpg);
-        color: #fff;
-    }
-}
-@media screen and (max-width: 650px) {
-    #container {
-        display: flex;
-        flex-direction: column;
-    }
-    #name__profile-img {
-        width: 100%;
-    }
-    #bios {
-        width: 100%;
-    }
-    #back__button {
-    position: relative;
-    }
-}
