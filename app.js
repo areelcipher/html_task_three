@@ -1,7 +1,7 @@
 const emailBtn = document.querySelector('#email__icon');
 const contactForm = document.querySelector('#contact__form');
 const biosInfos = document.querySelector('#bios__infos');
-const backButton = document.querySelector('#back__button');
+const backButton = document.querySelector('#form__icon');
 
 emailBtn.addEventListener('click', () => {
     contactForm.style.display = 'block';
